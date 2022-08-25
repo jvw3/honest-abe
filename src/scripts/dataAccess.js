@@ -106,9 +106,34 @@ export const getPoliticians = () => {
 export const getInterests = () => {
     return state.interests.map(interest => ({...interest}))
 }
-export const getInterests = () => {
-    return state.interests.map(interest => ({...interest}))
+export const getCommittees = () => {
+    return state.committees.map(committee => ({...committee}))
 }
+
+export const getCorporations = () => {
+    return state.corporations.map(corporation => ({...corporation}))
+}
+
+export const getBills = () => {
+    return state.bills.map(bill => ({...bill}))
+}
+
+export const getPoliticianBills = () => {
+    return state.politicianBills.map(polbill => ({...polbill}))
+}
+
+export const getPacToPolDonations = () => {
+    return state.pacToPolDonations.map(ptpdonations => ({...ptpdonations}))
+}
+
+export const getCorpToPacDonations = () => {
+    return state.corpToPacDonations.map( ctpdonations => ({...ctpdonations}))
+}
+
+export const getCorporateInterests = () => {
+    return state.corporateInterests.map(corpint => ({...corpint}))
+}
+
 
 
 

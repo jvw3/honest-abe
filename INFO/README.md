@@ -3,6 +3,7 @@
 **What do they want? What is being asked of you?**
 
 - Create html reprsentations for all elected officials
+    - name, age, and district.
 - Create html reprsentations for all companies that are politically influential (all companies in list)
 - Create html reprsentations for all donations that have been made to Political Action Committees.
 - Create html reprsentations for all donations that PACs have made to political campaigns.
