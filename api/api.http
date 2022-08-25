@@ -1,0 +1,37 @@
+Click Send Request or COMMAND + OPTION + R to SHOW REQUEST IN TAB ->
+GET   http://localhost:8299/politicians
+
+###
+
+GET   http://localhost:8299/interests
+
+###
+
+GET    http://localhost:8299/committees
+
+###
+
+GET    http://localhost:8299/corporations
+
+###
+
+GET      http://localhost:8299/bills
+
+###
+
+GET       http://localhost:8299/politicianBills
+
+###
+
+GET http://localhost:8299/pacToPolDonations
+
+###
+
+GET http://localhost:8299/corpToPacDonations
+
+###
+
+GET  http://localhost:8299/corporateinterests
+
+###
+
